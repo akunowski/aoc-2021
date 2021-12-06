@@ -1,3 +1,10 @@
+fun main() {
+    val input = readInput("main/resources/Day01")
+    val solution = Day01()
+    println(solution.part1(input))
+    println(solution.part2(input))
+}
+
 class Day01 {
     fun part1(input: List<String>): Int {
         return input
@@ -21,11 +28,4 @@ class Day01 {
                 }
                 .sum()
     }
-}
-
-fun main() {
-
-    val input = readInput("main/resources/Day01")
-    println(Day01().part1(input))
-    println(Day01().part2(input))
 }

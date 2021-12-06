@@ -23,46 +23,16 @@ class Day01Spec extends Specification {
     }
 
     def "Part1"() {
-        given:
-        def input_part_1 =
-                [
-                        "199",
-                        "200",
-                        "208",
-                        "210",
-                        "200",
-                        "207",
-                        "240",
-                        "269",
-                        "260",
-                        "263"
-                ]
-
         when:
-        def result = day01.part1(input_part_1)
+        def result = day01.part1(DAY_1_INPUT)
 
         then:
         result == 7
     }
 
     def "Part2"() {
-        given:
-        def input_part_1 =
-                [
-                        "199",
-                        "200",
-                        "208",
-                        "210",
-                        "200",
-                        "207",
-                        "240",
-                        "269",
-                        "260",
-                        "263"
-                ]
-
         when:
-        def result = day01.part2(input_part_1)
+        def result = day01.part2(DAY_1_INPUT)
 
         then:
         result == 5
