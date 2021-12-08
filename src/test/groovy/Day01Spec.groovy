@@ -2,11 +2,11 @@ import spock.lang.Specification
 
 class Day01Spec extends Specification {
 
-    Day01 day01
+    Day01 day
     List<String> DAY_1_INPUT
 
     def setup() {
-        day01 = new Day01()
+        day = new Day01()
         DAY_1_INPUT =
                 [
                         "199",
@@ -24,7 +24,7 @@ class Day01Spec extends Specification {
 
     def "Part1"() {
         when:
-        def result = day01.part1(DAY_1_INPUT)
+        def result = day.part1(DAY_1_INPUT)
 
         then:
         result == 7
@@ -32,7 +32,7 @@ class Day01Spec extends Specification {
 
     def "Part2"() {
         when:
-        def result = day01.part2(DAY_1_INPUT)
+        def result = day.part2(DAY_1_INPUT)
 
         then:
         result == 5
