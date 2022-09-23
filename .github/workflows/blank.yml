@@ -35,7 +35,9 @@ jobs:
       - run: git branch -a
       - run: git pull
 #       - run: git pull main
-      - run: git rebase main
+#       - run: git rebase main
+      - run: git merge main
+      - run: git push
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
