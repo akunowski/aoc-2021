@@ -35,7 +35,7 @@ jobs:
 #       - run: git pull 'origin/main'
       - run: git checkout 'origin/test'
 #       - run: git pull main
-      - run: git rebase 'origin/main'
+      - run: git rebase main
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
