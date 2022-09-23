@@ -36,7 +36,7 @@ jobs:
       - run: git pull
 #       - run: git pull main
 #       - run: git rebase main
-      - run: git merge main
+      - run: git merge main --allow-unrelated-histories
       - run: git push
 
       # Runs a single command using the runners shell
