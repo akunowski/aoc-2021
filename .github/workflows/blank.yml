@@ -34,7 +34,7 @@ jobs:
       - run: git branch -a
 #       - run: git pull 'origin/main'
       - run: git checkout test
-      - run: git pull main
+      - run: git pull 'origin/main'
       - run: git rebase main
 
       # Runs a single command using the runners shell
