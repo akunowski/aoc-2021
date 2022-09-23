@@ -26,8 +26,6 @@ jobs:
         with:
           path: main
       - run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
           git checkout test
           git pull main
           git rebase main
