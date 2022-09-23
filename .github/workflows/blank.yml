@@ -31,7 +31,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git pull main
-          git checkout test
+          git checkout 'origin/test'
           git pull main
           git rebase 'origin/main'
 
