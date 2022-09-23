@@ -37,6 +37,7 @@ jobs:
 #       - run: git merge main --allow-unrelated-histories
 #       - run: git push
       - run: git rebase
+      - run: git push
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
