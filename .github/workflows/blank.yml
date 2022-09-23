@@ -26,6 +26,8 @@ jobs:
         with:
           path: main
       - run: |
+          ls
+          pwd
           git checkout test
           git pull main
           git rebase main
