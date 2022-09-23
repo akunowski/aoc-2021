@@ -27,13 +27,13 @@ jobs:
 #           path: main
       - run: git config user.name github-actions
       - run: git config user.email github-actions@github.com
-      - run: git status
-      - run: git branch -a
       - run: git pull
       - run: git status
       - run: git branch -a
-#       - run: git pull 'origin/main'
       - run: git checkout test
+      - run: git status
+      - run: git branch -a
+      - run: git pull
       - run: git pull 'origin/main'
       - run: git rebase main
 
