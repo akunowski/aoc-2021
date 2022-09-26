@@ -27,7 +27,7 @@ jobs:
       - run: git config user.email github-actions@github.com
       - run: git fetch origin main
       - run: git pull
-      - run: git checkout origin/test
+      - run: git checkout test
       - run: git pull
       - run: git rebase origin/main
       - run: git push --force
