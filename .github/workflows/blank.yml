@@ -26,8 +26,8 @@ jobs:
       - run: git config user.name github-actions
       - run: git config user.email github-actions@github.com
       - run: git pull
-      - run: git checkout test
-      - run: git pull
+#       - run: git checkout test
+#       - run: git pull
 #       - run: git merge main --allow-unrelated-histories
 #       - run: git push
       - run: git rebase --onto origin/main origin/test
