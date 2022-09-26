@@ -30,7 +30,7 @@ jobs:
       - run: git pull
 #       - run: git merge main --allow-unrelated-histories
 #       - run: git push
-      - run: git rebase --onto origin/main
+      - run: git rebase --onto origin/main origin/test
       - run: git push --force
 
       # Runs a single command using the runners shell
