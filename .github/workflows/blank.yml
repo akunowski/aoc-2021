@@ -29,7 +29,7 @@ jobs:
       - run: git pull
       - run: git checkout test
       - run: git pull
-      - run: git rebase origin/main
+      - run: git rebase main
       - run: git push --force
 
       # Runs a single command using the runners shell
